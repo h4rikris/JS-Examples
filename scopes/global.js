@@ -16,4 +16,4 @@ function funB() {
 funA();
 //console.log(a);
 funB();
-//console.log(a);
+console.log(a);

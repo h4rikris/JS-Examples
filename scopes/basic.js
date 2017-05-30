@@ -5,6 +5,8 @@ function abc () {
         var b = 10;
         console.log(a,b);
     }
+    def();
     console.log(a);
 }
+abc();
 console.log(a);
