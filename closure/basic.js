@@ -4,7 +4,7 @@ var add = function (a, b) {
 var addn = function (n) {
     return function (b) {
         return add(n, b);
-    }
+    };
 };
 var add2 = addn(2);
 console.log(add(1,2));
